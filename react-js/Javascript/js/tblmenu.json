@@ -1,0 +1,21 @@
+[
+    {
+    "idmenu" : 5,
+    "idkategori" : 16,
+    "menu" : "jeruk manis 1", 
+    "harga" : 8000,
+    "warna" : ["merah", "kuning", "hijau"],
+    "stok" : true,
+    "keterangan" : null
+},
+{
+    "idmenu" : 6,
+    "idkategori" : 16,
+    "menu" : "jeruk manis 2", 
+    "harga" : 3000,
+    "warna" : ["merah", "kuning"],
+    "stok" : false,
+    "keterangan" : null
+}
+
+]
