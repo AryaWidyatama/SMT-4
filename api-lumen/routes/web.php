@@ -56,6 +56,12 @@ $router->group( ['prefix' => 'api','middleware'=>'auth'] ,function() use ($route
 
     $router->post('menu/{id}' ,['uses' =>'MenuController@update'] );
 
+    $router->get('order' ,['uses' => 'OrderController@index' ]);
+
+    $router->put('order/{id}' ,['uses' =>'OrderController@update'] );
+
+    $router->get('order/{a}/{b}' ,['uses' =>'OrderController@show'] );
+
 
 } );
 
